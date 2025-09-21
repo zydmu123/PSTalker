@@ -336,12 +336,14 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-3">Overview</h2>
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
             High-fidility talking head synthesis with arbitrary speech audio signals has achieved photo-realistic rendering performance with NeRF and 3D Gaussian Splatting. However, the sythesized head avatars suffer from inaccuracy of lip-sync motions and artifacts at head-torso junction. To this end, we introduce PSTalker, which constructs a semantic-aware point-based shape model (SAPS) and achieves talking head generation with the proposed rigid-flexible coupling model (RFC). SAPS extends the FLAME by semantically sampling on the mesh surface and off the mesh surface along the normal direction. This enables SAPS modeling both facial and non-facial structures and capturing the geometry of the head and torso parts, thus avoiding the artifacts at head-torso junction. RFC combines Gaussian motion fields with linear blend skinning, allowing audio-driven dynamics to be regularized by structural deformations, thus enhancing the motion stability and geometric editability. Extensive experiments demonstrate that PSTalker attains performance comparable to the state-of-the-art methods. Besides, PSTalker enables synthesizing talking head with flexible pose controllability, which are not achieved in previous methods.
           </p>
+          <br>
+          <img src="./static/images/PSTalker.png" alt="">
         </div>
       </div>
     </div>
