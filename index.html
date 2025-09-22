@@ -366,41 +366,43 @@
 </section>
 
 
-<!-- Results Section -->
-<section class="hero is-small is-light">
-  <div class="container" style="max-width: 800px; margin: auto;">
-    <h2 class="title is-3 has-text-centered">Results</h2>
+<!-- Results -->
+<section class="hero is-light">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3 has-text-centered">Results</h2>
 
-    <!-- Self-Driven Results Section -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-half">
-        <h3 class="title is-4">Self-Driven Comparison</h3>
-        <div class="publication-video" style="width: 100%; max-width: 800px; margin: 0 auto;">
-          <!-- Embed the self-driven video -->
-          <video width="100%" height="auto" controls>
-            <source src="./static/videos/selfDriven.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </div>
+      <!-- Self-Driven -->
+      <h3 class="title is-4 has-text-centered">Self-Driven Comparison</h3>
+      <h4 class="subtitle is-6 has-text-centered">Self-Driven Results Comparison</h4>
+      <video
+        id="self-driven"
+        controls
+        preload="metadata"
+        poster=""
+        style="width:100%; height:auto; display:block; margin:0 auto;">
+        <source src="./static/videos/selfDriven.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <div style="height: 28px;"></div> <!-- 小间距，可按需调整 -->
+
+      <!-- Cross-Driven -->
+      <h3 class="title is-4 has-text-centered">Cross-Driven Comparison</h3>
+      <h4 class="subtitle is-6 has-text-centered">Cross-Driven Results Comparison</h4>
+      <video
+        id="cross-driven"
+        controls
+        preload="metadata"
+        poster=""
+        style="width:100%; height:auto; display:block; margin:0 auto;">
+        <source src="./static/videos/crossDriven.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </div>
-
-    <!-- Cross-Driven Results Section -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-half">
-        <h3 class="title is-4">Cross-Driven Comparison</h3>
-        <div class="publication-video" style="width: 100%; max-width: 800px; margin: 0 auto;">
-          <!-- Embed the cross-driven video -->
-          <video width="100%" height="auto" controls>
-            <source src="./static/videos/crossDriven.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </div>
-    </div>
-
   </div>
 </section>
+
 
 
 
